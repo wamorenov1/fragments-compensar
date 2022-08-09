@@ -42,7 +42,7 @@ let autopautaInit1 = new Autopauta(
 autopautaInit1.cerrar()
 ```
 
-4. Testear el componente, validando que permita, ir a la página de caida, se pueda cerrar el componente, y que la redimensión muestre la imagen correspondiente a desktop y mobile. 
+4. Testear el componente, validando que permita ir a la página de caida, se pueda cerrar el componente y que la redimensión muestre la imagen correspondiente a desktop y mobile. 
 
 ## Bonus 
 
