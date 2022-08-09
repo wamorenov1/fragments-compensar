@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autopauta compensar</title>
+</head>
+<body>
+    <main></main>
+    <script src="./main.js"></script>
+    <script>
+        let imgDesktop = "https://via.placeholder.com/768x110"
+        let imgMobile = "https://via.placeholder.com/600x220"
+        let urlCaida = "https://www.google.com/"
+        let autopautaInit = new Autopauta(
+            imgDesktop, imgMobile, urlCaida
+        )
+        autopautaInit.cerrar()
+    </script>
+    <script>
+        // Tambien se puede hacer la invocación directamente en la instancia
+        let autopautaInit1 = new Autopauta(
+            "https://via.placeholder.com/768x110",
+            "https://via.placeholder.com/600x220",
+            "https://www.google.com/"
+        )
+    </script>
+</body>
+</html>
