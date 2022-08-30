@@ -20,7 +20,6 @@ let urlCaida = "https://www.google.com/"
 let autopautaInit = new Autopauta(
     imgDesktop, imgMobile, urlCaida
 )
-autopautaInit.cerrar()
 ```
 **Creadas directamente en la instancia**
 ```javascript
@@ -39,7 +38,6 @@ let autopautaInit1 = new Autopauta(
     "https://via.placeholder.com/600x220",
     "https://www.google.com/"
 )
-autopautaInit1.cerrar()
 ```
 
 4. Testear el componente, validando que permita, ir a la página de caida, se pueda cerrar el componente, y que la redimensión muestre la imagen correspondiente a desktop y mobile. 
@@ -56,6 +54,5 @@ let autopautaInit1 = new Autopauta(
     "https://via.placeholder.com/600x220",
     "https://www.google.com/"
 )
-autopautaInit1.cerrar()
 </script>
 ```
