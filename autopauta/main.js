@@ -3,7 +3,7 @@ class Autopauta {
         let container = document.createElement('div')
         let autopautaFragment = `
         <style>
-            .container-atp{z-index:999;display:inline-block;position:fixed;left:50%;transform:translate(-50%);bottom:0}.img-atp,.img-atp .picture{display:flex}.close-atp{padding:.2rem;position:absolute;right:0;border-radius:1rem;box-shadow:0 0 3px 2px #888;opacity:.8}.close-atp img{width:12px;display:flex;cursor:pointer}@media(max-width:800px){.img-atp .img-element{width:400px}}    
+            .container-atp{z-index:999;display:inline-block;position:fixed;left:50%;transform:translate(-50%);bottom:0}.img-atp,.img-atp .picture{display:flex}.close-atp{padding:.25rem;position:absolute;right:-7px;top:-7px;border-radius:1rem;box-shadow:0 0 3px 2px #888;background-color:#fff}.close-atp img{width:12px;display:flex;cursor:pointer}@media(max-width:800px){.img-atp .img-element{width:400px}}
         </style>
         <div id="content-atp" class="container-atp">
             <div class="close-atp" id="close-atp">
@@ -25,6 +25,7 @@ class Autopauta {
         `
         container.innerHTML = autopautaFragment
         document.body.insertBefore(container, document.main)
+        this.cerrar()
     }
     cerrar() {
         let contenedorAtp = document.querySelector('#content-atp')
